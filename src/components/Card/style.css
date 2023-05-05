@@ -1,0 +1,56 @@
+.card {
+    height: 350px;
+    width: 320px;
+    padding: 50px;
+    background-color: #37545A;
+    /* background-color: rgb(47, 79, 79); */
+    border-radius: 7px;
+    color: #fff;
+    margin: 5px;
+
+    transition: .5s ease;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.card:hover {
+    -webkit-box-shadow: 3px 9px 34px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 9px 34px -11px rgba(0,0,0,0.75);
+    box-shadow: 3px 9px 34px -11px rgba(0,0,0,0.75);
+}
+
+.card > .textos-card {
+    min-height: 220px;
+}
+
+
+.card > a {
+    position: relative;
+    background-color: #282c34;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.card > a:hover{
+    background-color: #fff;
+    color: #282c34;
+}
+
+.card > .textos-card > h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}  
+
+
+/* .card:hover {
+    animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;  
+}
+ */

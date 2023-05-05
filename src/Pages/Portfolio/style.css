@@ -1,0 +1,31 @@
+.portfolio {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* color: white; */
+  
+    flex-wrap: wrap;
+}
+
+.portfolio > .titulo {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio > .titulo > h2 {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+
+}
+
+.projetos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

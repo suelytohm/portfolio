@@ -1,0 +1,14 @@
+footer {
+    /* background-color: #282c34; */
+    background-color: #102A41;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer > p {
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}

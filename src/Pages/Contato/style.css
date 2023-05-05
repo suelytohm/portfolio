@@ -1,0 +1,22 @@
+.contato {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;  
+  text-align: center;
+}
+
+.contato > h2 {
+  font-size: 1.8rem;
+
+}
+
+.contato > p {
+    margin-top: 15px;
+}
+
+.contato > p > a {
+    text-decoration: none;
+}
+

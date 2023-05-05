@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34;
+   */
+   background-color: rgb(47, 79, 79);
+   background-image: url("../src/overlay.svg");
+   background-position: center;
+   background-size: cover;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  display: flex;
+  column-gap: 10px;
+}
+
+.text-header {
+  margin: 20px;
+}
+
+.text-header > h1 {
+  margin-bottom: 20px;
+}
+
+.img-header {
+  min-width: 350px;
+  max-width: 50%;
+	animation: bounce 2s infinite;
+  filter: drop-shadow(0 0 0.8em rgb(229,229,229));
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;  
+}
+
+ 
+@-webkit-keyframes bounce {
+	0%, 10%, 90%, 100% {-webkit-transform: translateY(0);}	
+	50% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 10%, 90%, 100% {-moz-transform: translateY(0);}
+	50% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 10%, 90%, 100% {-o-transform: translateY(0);}
+	50% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 10%, 90%, 100% {transform: translateY(0);}
+	50% {transform: translateY(-15px);}
+}

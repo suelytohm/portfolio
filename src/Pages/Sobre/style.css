@@ -1,0 +1,42 @@
+.sobre {
+    min-height: 70vh;
+    background-image: url('../../overlay.svg');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 150px;
+    color: #fff;
+}
+
+.sobre > .titulo {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 1.6rem;
+
+}
+
+.sobre > .textos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+
+.sobre > .textos > p > strong {
+    font-size: 1.4rem;
+
+}
+
+.sobre > .textos > p {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}

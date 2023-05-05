@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./style.css"
 
 
 const Footer = () => {
   const date = new Date()
-  const [data] = useState(date.getFullYear())
+  const ano = date.getFullYear()
 
   return (
     <footer>
-        <p>Suelytohm Oliveira © {data}- Todos os direitos reservados.</p>
+        <p>Suelytohm Oliveira © {ano}- Todos os direitos reservados.</p>
     </footer>
   )
 }

@@ -4,8 +4,7 @@ import "./style.css"
 
 const Footer = () => {
   const date = new Date()
-
-  const [data, setData] = useState(date.getFullYear())
+  const [data] = useState(date.getFullYear())
 
   return (
     <footer>

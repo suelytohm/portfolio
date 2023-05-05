@@ -11,11 +11,13 @@
 
 .App-header {
   /* background-color: #282c34;
-   */
-   background-color: rgb(47, 79, 79);
-   background-image: url("../src/overlay.svg");
-   background-position: center;
-   background-size: cover;
+  */
+  background-color: rgb(47, 79, 79);
+  background-image: url("../src/overlay.svg");
+  background-position: center;
+  background-size: cover;
+
+
 
   min-height: 100vh;
   display: flex;
@@ -24,6 +26,7 @@
   justify-content: space-evenly;
   color: white;
 
+  padding: 50px;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
@@ -41,7 +44,13 @@ li {
 }
 
 .text-header {
-  margin: 20px;
+  margin: 50px;
+}
+
+.text-header > .icone {
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 2px;
 }
 
 .text-header > h1 {

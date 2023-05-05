@@ -1,7 +1,6 @@
 import React from 'react'
 import "./style.css"
 
-
 const Sobre = () => {
   return (
     <section className='sobre'>

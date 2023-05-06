@@ -21,14 +21,14 @@ const Portfolio = () => {
       linkGit: "https://github.com/suelytohm/react-texto",
       tecnologias : ["html","css","javascript","react","nodejs"]
     },
-    {
-      id: 3,
-      project: "cortapreço",
-      description: "Gerenciador de grupos de whatsapp 100% autônomo, com envio de mensagens, fotos e links, tais como promoções, cupons de descontos e ofertas diretas.",
-      link: "https://lnk.bio/OfertasEPomocoes",
-      linkGit: "",
-      tecnologias : ["html","css","javascript","react","nodejs"]
-    },
+    // {
+    //   id: 3,
+    //   project: "cortapreço",
+    //   description: "Gerenciador de grupos de whatsapp 100% autônomo, com envio de mensagens, fotos e links, tais como promoções, cupons de descontos e ofertas diretas.",
+    //   link: "https://lnk.bio/OfertasEPomocoes",
+    //   linkGit: "",
+    //   tecnologias : ["html","css","javascript","react","nodejs"]
+    // },
     {
       id: 4,
       project: "top crypto",

@@ -48,7 +48,7 @@ const Portfolio = () => {
     {
       id: 6,
       project: "Blog Codelândia",
-      description: "Estilização e consulta das postagens do blog Tabnews. O desafio da estilização foi proposto pela comunidade codelândia e tomei a liberdade de implementar a consulta das postagens, afim de deixar o blog dinâmico.",
+      description: "Estilização e consulta das postagens do blog Tabnews. O desafio da estilização foi proposto pela comunidade codelândia e tomei a liberdade de implementar a consulta das postagens, a fim de deixar o blog dinâmico.",
       link: "https://codelandia01-blog.netlify.app/",
       linkGit: "https://github.com/suelytohm/codelandia-desafio01",
       tecnologias : ["html","css","javascript","react"]

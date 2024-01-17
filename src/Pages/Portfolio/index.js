@@ -56,7 +56,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <section className='portfolio'>
+    <section className='portfolio' id='portfolio'>
       <div className='titulo'>
         <h2>Esses são alguns dos meus projetos</h2>
         {/* <p>Todos eles estão disponíveis no meu <a href="https://github.com/suelytohm" target="_blank" rel="noopener noreferrer">Github</a></p> */}

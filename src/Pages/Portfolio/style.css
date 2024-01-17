@@ -6,9 +6,15 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    color: #fff;
     /* color: white; */
+
+    padding-bottom: 50px;
   
     flex-wrap: wrap;
+
+    background: rgb(55,84,90);
+    background: linear-gradient(337deg, rgba(55,84,90,1) 0%, rgba(55,84,90,1) 48%, rgba(16,24,25,1) 85%);
 }
 
 .portfolio > .titulo {

@@ -1,0 +1,58 @@
+ header {  
+    background: rgb(55,84,90);
+    background: linear-gradient(212deg, rgba(55,84,90,1) 0%, rgba(55,84,90,1) 48%, rgba(16,24,25,1) 85%);
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  
+    padding: 10px;
+    flex-wrap: wrap;
+  }  
+
+  .text-header {
+    margin: 50px;
+  }
+  
+  .text-header > .icone {
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 2px;
+  }
+  
+  .text-header > h1 {
+    margin-bottom: 20px;
+  } 
+  
+  .img-header {
+    min-width: 350px;
+    max-width: 50%;
+    animation: bounce 2s infinite;
+    filter: drop-shadow(0 0 0.8em rgb(229,229,229));
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;  
+  }
+
+   
+  @-webkit-keyframes bounce {
+      0%, 10%, 90%, 100% {-webkit-transform: translateY(0);}	
+      50% {-webkit-transform: translateY(-15px);}
+  }
+   
+  @-moz-keyframes bounce {
+      0%, 10%, 90%, 100% {-moz-transform: translateY(0);}
+      50% {-moz-transform: translateY(-15px);}
+  }
+   
+  @-o-keyframes bounce {
+      0%, 10%, 90%, 100% {-o-transform: translateY(0);}
+      50% {-o-transform: translateY(-15px);}
+  }
+  @keyframes bounce {
+      0%, 10%, 90%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-15px);}
+  }

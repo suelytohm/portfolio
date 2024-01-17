@@ -15,6 +15,7 @@ const Card = ({project,linkGit,description,link,tecnologias}) => {
     <div className='card'>
         <div className='textos-card'>
             <h3>{project}</h3>
+            {/* <span>(Front-End)</span> */}
             <p>{description}</p>
         </div>
         <div className='footer-card'>

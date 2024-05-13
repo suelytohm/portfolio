@@ -32,12 +32,14 @@
     max-width: 50%;
     animation: bounce 2s infinite;
     filter: drop-shadow(0 0 0.8em rgb(229,229,229));
+/*
     -webkit-animation: bounce 2s infinite;
     -moz-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;  
+*/
   }
 
-   
+/*   
   @-webkit-keyframes bounce {
       0%, 10%, 90%, 100% {-webkit-transform: translateY(0);}	
       50% {-webkit-transform: translateY(-15px);}
@@ -56,3 +58,4 @@
       0%, 10%, 90%, 100% {transform: translateY(0);}
       50% {transform: translateY(-15px);}
   }
+*/

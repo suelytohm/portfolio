@@ -16,7 +16,6 @@ import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
-import { FaBootstrap } from "react-icons/fa";
 // import { FaDocker } from "react-icons/fa";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
@@ -26,17 +25,13 @@ const Home = () => {
       <div className="text-header">
         <h1>Olá! Meu nome é Suelytohm</h1>
         <p>
-          Eu sou um desenvolvedor FullStack.
+          Eu sou um desenvolvedor FullStack
           <br />
           <br />
-          O meu objetivo profissional é proporcionar uma experiência excepcional
-          para os usuários.
+          Eu estou em busca de aplicar os meus conhecimentos.
           <br />
-          <br />
-          Eu estou em busca de aplicar os meus conhecimentos em novos projetos.
-          <br />
-          <br />
-          Eu tenho mais de 6 anos de experiência em algumas tecnologias, como:
+          <br />O meu objetivo profissional é proporcionar uma experiência
+          excepcional para os usuários.
         </p>
 
         <div className="icons">
@@ -60,32 +55,32 @@ const Home = () => {
             className="icone SiTypescript"
             data-tooltip-id="SiTypescript"
           />
-          <FaReact
+          <FaNode
             size="45px"
-            className="icone FaReact"
-            data-tooltip-id="FaReact"
-          />
-          <FaBootstrap
-            size="45px"
-            className="icone FaBootstrap"
-            data-tooltip-id="FaBootstrap"
+            className="icone FaNode"
+            data-tooltip-id="FaNode"
           />
           <FaPython
             size="45px"
             className="icone FaPython"
             data-tooltip-id="FaPython"
           />
-          <FaNode
-            size="45px"
-            className="icone FaNode"
-            data-tooltip-id="FaNode"
-          />
+          <FaPhp size="45px" className="icone FaPhp" data-tooltip-id="FaPhp" />
           <FaJava
             size="45px"
             className="icone FaJava"
             data-tooltip-id="FaJava"
           />
-          <FaPhp size="45px" className="icone FaPhp" data-tooltip-id="FaPhp" />
+          <FaReact
+            size="45px"
+            className="icone FaReact"
+            data-tooltip-id="FaReact"
+          />
+          <SiMongodb
+            size="45px"
+            className="icone SiMongodb"
+            data-tooltip-id="SiMongodb"
+          />
           <SiMysql
             size="45px"
             className="icone SiMysql"
@@ -95,11 +90,6 @@ const Home = () => {
             size="45px"
             className="icone DiPostgresql"
             data-tooltip-id="DiPostgresql"
-          />
-          <SiMongodb
-            size="45px"
-            className="icone SiMongodb"
-            data-tooltip-id="SiMongodb"
           />
           <DiRedis
             size="50px"
@@ -135,12 +125,6 @@ const Home = () => {
             place="bottom"
             variant="light"
             content="Typescript"
-          />
-          <ReactTooltip
-            id="FaBootstrap"
-            place="bottom"
-            variant="light"
-            content="Bootstrap"
           />
           <ReactTooltip
             id="FaNode"

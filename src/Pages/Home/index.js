@@ -20,6 +20,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaAndroid } from "react-icons/fa";
 // import { FaDocker } from "react-icons/fa";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import ContactCard from "../../components/ContactCard";
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
       <div className="text-header">
         <h1>Olá! Meu nome é Suelytohm</h1>
         <p>
-          Eu sou um desenvolvedor Front-End.
+          Eu sou Desenvolvedor Front-End.
           <br />
           <br />
           Eu estou em busca de aprimorar e de aplicar os meus conhecimentos em
@@ -215,6 +216,11 @@ const Home = () => {
             variant="light"
             content="GitHub"
           />
+        </div>
+        <div className="btnContatos">
+          <ContactCard contato={"WhatsApp"} />
+          <ContactCard contato={"GitHub"} />
+          <ContactCard contato={"LinkedIn"} />
         </div>
       </div>
       <img src={logo} className="img-header" alt="logo" />

@@ -11,7 +11,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   color: white;
 
   padding: 10px;
@@ -44,6 +44,12 @@ header {
     -moz-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;  
 */
+}
+
+.btnContatos {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 /*   

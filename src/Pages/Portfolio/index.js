@@ -8,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       project: "dotflix",
       description:
-        "É um Sistema fictício de uma possível locadora de filmes. Nesse sistema, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
+        "É um site fictício de uma possível locadora de filmes. Nesse sistema, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
       link: "https://illustrious-panda-b7bf28.netlify.app/",
       linkGit: "https://github.com/suelytohm/desafio-dot",
       tecnologias: ["html", "css", "javascript", "react"],
@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: 2,
       project: "oktext",
       description:
-        "Um editor de textos, que pode ser acessado de forma online. Muito útil para o compartilhamento de links entre dispositivos.",
+        "É um Sistema que tem como finalidade editar textos. Esse sistema pode ser acessado de forma Online e possui muita utilidade, pois ele consegue enviar o conteúdo de forma instantânea, apenas, compartilhando o link entre os dispositivos.",
       link: "https://react-texto.vercel.app/",
       linkGit: "https://github.com/suelytohm/react-texto",
       tecnologias: ["html", "css", "javascript", "react", "nodejs"],
@@ -34,7 +34,7 @@ const Portfolio = () => {
       id: 3,
       project: "top crypto",
       description:
-        "Listagem e monitoramento em tempo real das criptomoedas mais negociadas nas últimas 24 horas, utilizando a API pública da Coincap.",
+        "É um Site que faz a listagem e o monitoramento em tempo real das criptomoedas mais negociadas nas últimas 24 horas, utilizando a API pública da Coincap.",
       link: "https://topcryptos.netlify.app/",
       linkGit: "https://github.com/suelytohm/crypto",
       tecnologias: ["html", "css", "javascript", "react"],

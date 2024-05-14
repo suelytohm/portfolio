@@ -27,10 +27,11 @@ const Home = () => {
       <div className="text-header">
         <h1>Olá! Meu nome é Suelytohm</h1>
         <p>
-          Eu sou um desenvolvedor FullStack.
+          Eu sou um desenvolvedor Front-End.
           <br />
           <br />
-          Eu estou em busca de aplicar os meus conhecimentos em novos projetos.
+          Eu estou em busca de aprimorar e de aplicar os meus conhecimentos em
+          novos projetos.
           <br />
           <br />
           O meu objetivo profissional é proporcionar uma experiência excepcional

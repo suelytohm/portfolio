@@ -8,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       project: "dotflix",
       description:
-        "Sistema fictício de uma possível locadora de filmes, onde são exibidos os filmes mais recentes e suas características, através do consumo da API do TheMovieDb.",
+        "É um Sistema fictício de uma possível locadora de filmes. Nesse sistema, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
       link: "https://illustrious-panda-b7bf28.netlify.app/",
       linkGit: "https://github.com/suelytohm/desafio-dot",
       tecnologias: ["html", "css", "javascript", "react"],
@@ -62,7 +62,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" id="portfolio">
       <div className="titulo">
-        <h2>Esses são alguns dos meus projetos</h2>
+        <h2>Esses são alguns dos meus projetos:</h2>
         {/* <p>Todos eles estão disponíveis no meu <a href="https://github.com/suelytohm" target="_blank" rel="noopener noreferrer">Github</a></p> */}
       </div>
       <div className="projetos">

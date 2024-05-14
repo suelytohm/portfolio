@@ -29,14 +29,14 @@ const Home = () => {
           Eu sou um desenvolvedor FullStack.
           <br />
           <br />
+          Eu estou em busca de aplicar os meus conhecimentos em novos projetos.
+          <br />
+          <br />
           O meu objetivo profissional é proporcionar uma experiência excepcional
           para os usuários.
           <br />
           <br />
-          Eu estou em busca de aplicar os meus conhecimentos em novos projetos.
-          <br />
-          <br />
-          Eu tenho mais de 6 anos de experiência em algumas tecnologias, como:
+          Eu tenho mais de 6 anos de experiência em tecnologias, como:
         </p>
 
         <div className="icons">

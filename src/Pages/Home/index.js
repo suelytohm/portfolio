@@ -17,6 +17,7 @@ import { FaPython } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
 import { DiPostgresql } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
+import { FaAndroid } from "react-icons/fa";
 // import { FaDocker } from "react-icons/fa";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
@@ -86,6 +87,11 @@ const Home = () => {
             data-tooltip-id="FaJava"
           />
           <FaPhp size="45px" className="icone FaPhp" data-tooltip-id="FaPhp" />
+          <FaAndroid
+            size="45px"
+            className="icone FaAndroid"
+            data-tooltip-id="FaAndroid"
+          />
           <SiMysql
             size="45px"
             className="icone SiMysql"
@@ -165,6 +171,12 @@ const Home = () => {
             place="bottom"
             variant="light"
             content="Java"
+          />
+          <ReactTooltip
+            id="FaAndroid"
+            place="bottom"
+            variant="light"
+            content="Android"
           />
           <ReactTooltip
             id="FaReact"

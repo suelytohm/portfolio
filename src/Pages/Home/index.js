@@ -20,7 +20,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaAndroid } from "react-icons/fa";
 // import { FaDocker } from "react-icons/fa";
 import { Tooltip as ReactTooltip } from "react-tooltip";
-import ContactCard from "../../components/ContactCard";
+// import ContactCard from "../../components/ContactCard";
 
 const Home = () => {
   return (

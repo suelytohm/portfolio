@@ -8,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       project: "dotflix",
       description:
-        "É um site fictício de uma possível locadora de filmes. Nesse sistema, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
+        "Site fictício de uma possível locadora de filmes. Nesse Site, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
       link: "https://illustrious-panda-b7bf28.netlify.app/",
       linkGit: "https://github.com/suelytohm/desafio-dot",
       tecnologias: ["html", "css", "javascript", "react"],
@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: 2,
       project: "oktext",
       description:
-        "É um Sistema que tem como finalidade editar textos. Esse sistema pode ser acessado de forma Online e possui muita utilidade, pois ele consegue enviar o conteúdo de forma instantânea, apenas, compartilhando o link entre os dispositivos.",
+        "Sistema que tem como finalidade editar textos. Esse sistema pode ser acessado de forma Online e possui muita utilidade, pois ele consegue enviar o conteúdo de forma instantânea, apenas, compartilhando o link entre os dispositivos.",
       link: "https://react-texto.vercel.app/",
       linkGit: "https://github.com/suelytohm/react-texto",
       tecnologias: ["html", "css", "javascript", "react", "nodejs"],
@@ -32,9 +32,9 @@ const Portfolio = () => {
     // },
     {
       id: 3,
-      project: "top crypto",
+      project: "Top Crypto",
       description:
-        "É um Site que faz a listagem e o monitoramento em tempo real das criptomoedas mais negociadas nas últimas 24 horas, utilizando a API pública da Coincap.",
+        "Site que faz a listagem e o monitoramento em tempo real das criptomoedas mais negociadas nas últimas 24 horas, utilizando a API pública da Coincap.",
       link: "https://topcryptos.netlify.app/",
       linkGit: "https://github.com/suelytohm/crypto",
       tecnologias: ["html", "css", "javascript", "react"],
@@ -43,7 +43,7 @@ const Portfolio = () => {
       id: 4,
       project: "JordanShoes",
       description:
-        "E-commerce da loja JordanShoes, revendedor oficial dos tênis colecionáveis Nike Air Jordan. O desafio da estilização foi proposto pela comunidade codelândia.",
+        "E-commerce da loja JordanShoes. Esse Site é o local para revenda Oficial dos tênis colecionáveis Nike Air Jordan. O desafio da estilização foi proposto pela comunidade codelândia.",
       link: "https://jordanshoes-shop.netlify.app/",
       linkGit: "https://github.com/suelytohm/codelandia-desafio02",
       tecnologias: ["html", "css", "javascript", "react"],
@@ -52,7 +52,7 @@ const Portfolio = () => {
       id: 5,
       project: "Blog Codelândia",
       description:
-        "Estilização e consulta das postagens do blog Tabnews. O desafio da estilização foi proposto pela comunidade codelândia e tomei a liberdade de implementar a consulta das postagens, a fim de deixar o blog dinâmico.",
+        "Um Projeto desenvolvido com a estilização e algumas consultas das postagens do blog Tabnews. O desafio da estilização foi proposto pela comunidade codelândia e eu quis implementar a consulta das postagens, com o objetivo de deixar o blog dinâmico.",
       link: "https://codelandia01-blog.netlify.app/",
       linkGit: "https://github.com/suelytohm/codelandia-desafio01",
       tecnologias: ["html", "css", "javascript", "react"],

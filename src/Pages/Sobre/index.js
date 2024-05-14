@@ -20,7 +20,7 @@ const Sobre = () => {
           experiência, em criação e manutenção de sistemas dinâmicos,
           utilizando, HTML5, CSS3, PHP, React, NodeJS, Java e Delphi. Durante a
           minha trajetória profissional, eu desenvolvi a habilidade em criar
-          sites com design elegante, de fácil usabilidade e utilizando
+          sites com design elegante, de fácil usabilidade, utilizando,
           Bootstrap, chakra-ui e outros frameworks, com foco em UX/UI.
           Atualmente, eu estou buscando novos desafios, para eu aprimorar e
           aplicar as minhas habilidades e contribuir em projetos inovadores. No

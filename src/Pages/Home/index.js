@@ -217,11 +217,11 @@ const Home = () => {
             content="GitHub"
           />
         </div>
-        <div className="btnContatos">
+        {/* <div className="btnContatos">
           <ContactCard contato={"WhatsApp"} />
           <ContactCard contato={"GitHub"} />
           <ContactCard contato={"LinkedIn"} />
-        </div>
+        </div> */}
       </div>
       <img src={logo} className="img-header" alt="logo" />
     </header>

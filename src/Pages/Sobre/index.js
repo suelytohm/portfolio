@@ -16,7 +16,7 @@ const Sobre = () => {
           </strong>
         </p> */}
         <p>
-          Eu sou Desenvolvedor Front-End. Eu tenho mais de seis anos de
+          Eu sou Desenvolvedor FullStack. Eu tenho mais de seis anos de
           experiência, em criação e manutenção de sistemas dinâmicos,
           utilizando, HTML5, CSS3, PHP, React, NodeJS, Java e Delphi. Durante a
           minha trajetória profissional, eu desenvolvi a habilidade em criar

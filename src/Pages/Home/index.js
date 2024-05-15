@@ -28,7 +28,7 @@ const Home = () => {
       <div className="text-header">
         <h1>Olá! Meu nome é Suelytohm</h1>
         <p>
-          Eu sou Desenvolvedor Front-End.
+          Eu sou Desenvolvedor FullStack.
           <br />
           <br />
           Eu estou em busca de aprimorar e de aplicar os meus conhecimentos em

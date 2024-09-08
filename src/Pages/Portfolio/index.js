@@ -6,6 +6,15 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      project: "Inove Publicidade",
+      description:
+        "Site institucional da Inove Publicidade Lisboa, uma empresa de publicidade em Portugal. Com design moderno e conteúdo objetivo, destaca os serviços oferecidos e o compromisso em entregar soluções publicitárias únicas e eficazes.",
+      link: "https://inovepublicidade.pt",
+      linkGit: "",
+      tecnologias: ["html", "css", "javascript", "react", "nodejs"],
+    },
+    {
+      id: 2,
       project: "dotflix",
       description:
         "Site fictício de uma possível locadora de filmes. Nesse Site, são exibidos os filmes mais recentes e as suas características através do consumo da API do TheMovieDb.",
@@ -13,15 +22,15 @@ const Portfolio = () => {
       linkGit: "https://github.com/suelytohm/desafio-dot",
       tecnologias: ["html", "css", "javascript", "react"],
     },
-    {
-      id: 2,
-      project: "oktext",
-      description:
-        "Sistema que tem como finalidade editar textos. Esse sistema pode ser acessado de forma Online e possui muita utilidade, pois ele consegue enviar o conteúdo de forma instantânea, apenas, compartilhando o link entre os dispositivos.",
-      link: "https://react-texto.vercel.app/",
-      linkGit: "https://github.com/suelytohm/react-texto",
-      tecnologias: ["html", "css", "javascript", "react", "nodejs"],
-    },
+    // {
+    //   id: 3,
+    //   project: "oktext",
+    //   description:
+    //     "Sistema que tem como finalidade editar textos. Esse sistema pode ser acessado de forma Online e possui muita utilidade, pois ele consegue enviar o conteúdo de forma instantânea, apenas, compartilhando o link entre os dispositivos.",
+    //   link: "https://react-texto.vercel.app/",
+    //   linkGit: "https://github.com/suelytohm/react-texto",
+    //   tecnologias: ["html", "css", "javascript", "react", "nodejs"],
+    // },
     // {
     //   id: 3,
     //   project: "cortapreço",
